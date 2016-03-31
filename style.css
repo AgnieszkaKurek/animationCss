@@ -1,0 +1,25 @@
+.square {
+    width: 250px;
+    height: 250px;
+    margin: 1rem 0 2rem 1rem;
+    background-color: #0000ff;
+    
+}
+
+/*Blue to green */
+#color .square {
+    
+}
+#color .square:hover {
+    background-color: #008000;
+    
+}
+/*SQuare to circle */
+#circle .square {
+    
+}
+
+#circle .square:hover  {
+    border-radius: 50%;
+    background-color: #800080;
+}
