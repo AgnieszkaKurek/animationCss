@@ -8,7 +8,16 @@
 
 /*Blue to green */
 #color .square {
-    
+    -webkit-transition-property:background-color;
+    -moz-transition-property:background-color;
+    -o-transition-property:  background-color;
+    -ms-transition-property:  background-color;
+    transition-property:  background-color;
+    -webkit-transition-duration: 5s;
+    -moz-transition-duration: 5s;
+    -o-transition-duration: 5s;
+    -ms-transition-duration: 5s;
+    transition-duration: 5s;
 }
 #color .square:hover {
     background-color: #008000;
