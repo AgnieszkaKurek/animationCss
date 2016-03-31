@@ -25,6 +25,16 @@
 }
 /*SQuare to circle */
 #circle .square {
+    -webkit-transition-property:  border-radius, background-color;
+    -moz-transition-property:  border-radius, background-color;
+    -o-transition-property:  border-radius, background-color;
+    -ms-transition-property:  border-radius, background-color;
+    transition-property:  border-radius, background-color;
+    -webkit-transition-duration: 2s, 5s;
+    -moz-transition-duration:2s, 5s;
+    -o-transition-duration:2s, 5s;
+    -ms-transition-duration:2s, 5s;
+    transition-duration:2s, 5s;
     
 }
 
