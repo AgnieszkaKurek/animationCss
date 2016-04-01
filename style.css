@@ -1,26 +1,9 @@
-#rotate {
-    display: block;
-}
-img {
+.rider {
     position: absolute;
+    left: 150px;
+    bottom: 10px;
+    transition: transform 5s 1s cubic-bezier(.66, 0, 0, 1.29);
 }
-.big_gear {
-    top: 150px;
-    left: 300px;
-    -webkit-transition:  transform 12s 2s ease-in;
-    -moz-transition:  transform 12s 2s ease-in;
-    transition:  transform 12s 2s ease-in;
-}
-.small_gear {
-    top: 350px;
-    left: 155px;
-    -webkit-transition:  transform 10s ease-in;
-    -moz-transition:  transform 10s ease-in;
-    transition:  transform 10s ease-in;
-}
-#rotate:hover > .small_gear {
-    transform: rotate(-360deg);
-}
-#rotate:hover > .big_gear {
-     transform: rotate(360deg);
+.rider:hover {
+    transform: translateX(1700px);
 }
