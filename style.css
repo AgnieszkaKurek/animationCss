@@ -30,7 +30,7 @@ section, h1 {
     transform: skewX(-20deg);
 }
 
-/*The scale() mrthod */
+/*The scale() method */
 #scale .square div {
     background: #000;
     position: absolute;
@@ -53,4 +53,21 @@ section, h1 {
     transform: scale(2,2);
 }
 
+/*The rotate() method*/
+#rotate .square {
+    background-color: #ff6347;
+    -webkit-transition:transform 5s;
+    -moz-transition:transform 5s;
+    -o-transition:transform 5s;
+    -ms-transition:transform 5s;
+    transition:transform 5s;
+    
+}
+#rotate .square:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
     
