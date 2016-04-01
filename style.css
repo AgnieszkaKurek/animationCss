@@ -73,11 +73,11 @@ section, h1 {
 /*The translate() method*/
 #translate .square {
    background-color: #ffa500;
-   -webkit-transition:transform 5s,  background 3s 2s;
-   -moz-transition:transform 5s, background 3s 2s;
-   -o-transition:transform 5s, background 3s 2s;
-   -ms-transition:transform 5s, background 3s 2s;
-   transition:transform 5s, background 3s 2s;
+   -webkit-transition:transform 5s ease-in,  background 3s 2s;
+   -moz-transition:transform 5s ease-in, background 3s 2s;
+   -o-transition:transform 5s ease-in, background 3s 2s;
+   -ms-transition:transform 5s ease-in, background 3s 2s;
+   transition:transform 5s ease-in, background 3s 2s;
 }
 #translate .square:hover {
     background-color: #008000;
