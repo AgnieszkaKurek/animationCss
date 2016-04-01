@@ -70,4 +70,22 @@ section, h1 {
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
 }
+/*The translate() method*/
+#translate .square {
+   background-color: #ffa500;
+   -webkit-transition:transform 5s,  background 3s 2s;
+   -moz-transition:transform 5s, background 3s 2s;
+   -o-transition:transform 5s, background 3s 2s;
+   -ms-transition:transform 5s, background 3s 2s;
+   transition:transform 5s, background 3s 2s;
+}
+#translate .square:hover {
+    background-color: #008000;
+    -webkit-transform:translateX(900px) rotate(360deg);
+    -moz-transform:translateX(900px) rotate(360deg);
+    -o-transform:translateX(900px) rotate(360deg);
+    -ms-transform:translateX(900px) rotate(360deg);
+    transform:translateX(900px) rotate(360deg);
+}
+
     
