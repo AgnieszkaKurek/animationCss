@@ -1,9 +1,41 @@
-.rider {
-    position: absolute;
-    left: 150px;
-    bottom: 10px;
-    transition: transform 5s 1s cubic-bezier(.66, 0, 0, 1.29);
+ h1 {
+     margin-left: 40px;
 }
-.rider:hover {
-    transform: translateX(1700px);
+.box {
+    width: 220px;
+    height: 220px;
+    display: inline-block;
+    margin: 50px 80px;
+    border: 1px solid #000000;
+    position: relative;
+    /*perspective: 600px;*/
+}
+.box div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*transform-style: preserve-3d;
+    transition: transform 2s;*/
+}
+.rotate3d {
+    background: hsla(240, 70%, 50%, 0.6);
+}
+.translate3d {
+     background: hsla(120, 70%, 50%, 0.6);
+}
+.scale3d {
+     background: hsla(320, 70%, 50%, 0.6);
+}
+/* 3D Transformation and Animation*/
+.rotate3d:hover {
+    /*transform: rotateX(360deg) rotateY(360deg)  rotateZ(360deg);*/
+    transform: rotate3d(1,1,1,360deg)
+}
+.translate3d:hover {
+    /*transform: translateX(40px) translateY(40px) translateZ(50px);*/
+    transform: translate3d(40px, 40px, 40px);
+    
+} 
+.scale3d:hover {
+    transform: scale3d(1.5,1.5,1.5);
 }
