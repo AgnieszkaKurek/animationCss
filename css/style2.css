@@ -145,7 +145,7 @@ a:hover {
     left: 55px;
 }
 .topright {
-    height: 210px;
+    height: 204px;
     right: 40px;
     top: 0;
     background: #eeeeee;
@@ -219,16 +219,19 @@ button, .button {
 	font-weight: 900;
 }
 /* Learn more */
-#video .play-btn {
-    color: #000000;
+
+#video .btn-more {
+	color: #000;
 	background: rgba(0,0,0,0);
 	margin-right: 30px;
 	font-weight: 900;
 	padding: 30px 0 60px 20px;
 	transition: background-color .5s;
 }
-#video a:hover ~ .btn-more {
 
+#video a:hover ~ .btn-more {
+	background: rgba(0,0,0,0.8);
+	color: #fff;
 }
 
 /* Play button icon */
@@ -243,8 +246,9 @@ button, .button {
 
 #video img:hover ~ .play-btn, 
 .play-btn:hover {
-
+	color: rgba(255,255,255,.8);
 }
+
 /* === #gallery ===*/
 
 .hero-content {
@@ -332,7 +336,7 @@ button, .button {
 
 .gallery img:hover ~ .btn-learn  {
 	z-index:2;
-
+    opacity: 1;
 }
 
 .gallery img:hover ~ .caption {
