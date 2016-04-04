@@ -331,9 +331,11 @@ button, .button {
     -ms-transform: scale(1.2,1.2);
     -webkits-transform: scale(1.2,1.2);
     transform: scale(1.2,1.2);
+    box-shadow: 10px 10px 20px #333333;
 }
 
 .gallery .img:hover  {
+    z-index: 5;
 
 }
 
