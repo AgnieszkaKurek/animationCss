@@ -32,12 +32,12 @@
 }
 
 #row_1 .album_container:hover .picture {
-    transform: rotateY(180deg);
+    transform: rotateY(180deg) rotateY(180deg);
 }
 #row_2 .back {
-    
+    transform: rotateZ(180deg);
 }
 
 #row_2 .album_container:hover .picture {
-    transform: rotateY(-180deg);
+    transform: rotateY(180deg);
 }
