@@ -328,6 +328,9 @@ button, .button {
 
 .gallery img:hover  {
 	z-index: 1;
+    -ms-transform: scale(1.2,1.2);
+    -webkits-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
 }
 
 .gallery .img:hover  {
@@ -341,6 +344,9 @@ button, .button {
 
 .gallery img:hover ~ .caption {
 	z-index:2;
+    -ms-transform: translate(-30px, -20px);
+    -webkit-transform: translate(-30px, -20px);
+    transform: translate(-30px, -20px);
 }	
 
 
