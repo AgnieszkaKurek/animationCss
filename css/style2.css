@@ -324,7 +324,7 @@ button, .button {
 	transition: all .5s;
 }
 
-/* 2D Transition */
+/* 2D Transition 
 
 .gallery img:hover  {
 	z-index: 1;
@@ -351,33 +351,36 @@ button, .button {
     transform: translate(-30px, -20px);
 }	
 
-
+*/
 /* 3D Transform */
 
 .gallery .img {
 	transition: all .5s;
+    perspective: 1000px;
 }
 
 .gallery .picture {
 	-webkit-transition: all 1s;
 	transition: all 1s;
+    transform-style: preserve-3d; 
 }
 
 .gallery .front  {	
- 
+    transform: rotateY(0deg);  
 }
 
 .gallery .back {
-
+    transform: rotateY(180deg);  
+    backface-visibility: hidden;
 }
 
 
 .gallery .img:hover .picture   {	
-
+    transform: rotateY(180deg);  
 }
 
 .gallery .img:hover .front   {	
-
+    backface-visibility: hidden;
 }
 /* === Contact ===*/
 .panel {
