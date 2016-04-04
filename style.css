@@ -30,3 +30,14 @@
     background-color: #aaaaaa;
     transform: rotateY(180dag);
 }
+
+#row_1 .album_container:hover .picture {
+    transform: rotateY(180deg);
+}
+#row_2 .back {
+    
+}
+
+#row_2 .album_container:hover .picture {
+    transform: rotateY(-180deg);
+}
